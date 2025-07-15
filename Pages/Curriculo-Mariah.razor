@@ -1,36 +1,44 @@
 ﻿@page "/Curriculo-Mariah"
+@layout Shared.BaseLayout
+
 <PageTitle>Curriculo_Mariah</PageTitle>
 
-<div class="container">
-    <div class="titulo">
-        <h3>Currículo</h3>
-    </div>
+<div class="curriculo-card">
+    <img class="foto-perfil" src="mariah.jpeg" alt="foto">
+    <header>
+        <h1>Mariah Vitória Batista Cardoso</h1>
+        <p>Estudante de Informática</p>
+        <p>Contato: (69) 99286-4074 / Email: mariahvitoriabatistacardoso@gmail.com</p>
+    </header>
 
-    <div class="informacoes">
-        <h2>Mariah Vitória Batista Cardoso</h2>
-        <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia – Campus Ji-Paraná. Estudante do curso Técnico em Informática.</p>
+    <section id="resumo">
+        <h2>Resumo</h2>
+        <p>
+            Estudante do Instituto Federal de Educação, Ciência e Tecnologia de Rondônia – Campus Ji-Paraná,
+            no curso Técnico em Informática. Conhecimentos médios em HTML, CSS, JavaScript e Tailwind.
+        </p>
+    </section>
 
-        <h3>Formação</h3>
-        <p>Curso Técnico em Informática (Em andamento)</p>
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML e JavaScript</li>
+            <li>CSS e Tailwind</li>
+            <li>PHP e frameworks</li>
+            <li>C#</li>
+        </ul>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <p>Curso Técnico em Informática – IFRO (em andamento)</p>
         <p>Curso de Informática Básica – IfoWare (2019–2020)</p>
         <p>Ensino Fundamental – Colégio Professor José Francisco dos Santos (2019–2022)</p>
-    </div>
+    </section>
 
-    <div class="experiencia">
-        <h3>Experiência</h3>
+    <section id="experiencia">
+        <h2>Experiência</h2>
         <p>Projeto de Extensão Acadêmica: Abomalê (Neabi)</p>
-    </div>
-
-    <div class="habilidades">
-        <h3>Habilidades</h3>
-        <p>HTML e JavaScript – Nível intermediário</p>
-        <p>PHP e frameworks – Nível intermediário</p>
-        <p>C# – Nível intermedoário</p>
-    </div>
-
-    <div class="contato">
-        <h3>Contato</h3>
-        <p>Telefone: (69) 99286-4074</p>
-        <p>Email: mariahvitoriabatistacardoso2@gmail.com</p>
-    </div>
+        <p>Estágio na empresa NBS (3 meses) – Atuação com desenvolvimento front-end utilizando HTML, CSS, JavaScript e Tailwind</p>
+    </section>
 </div>
